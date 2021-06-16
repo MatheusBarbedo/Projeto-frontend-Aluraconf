@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FaesaCONF</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>
+                <li class="menu-item"><a href="#panel-speakers">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <section class="panel-main">
+                <h1 class="title">FaesaCONF</h1>
+                <h2 class="subtitle">28FEV|ES</h2>
+            </section>
+            <section class="panel-subscribe">
+                <a href="#panel-form" class="button">Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+
+    <section class="panel panel-about" id="panel-about">
+        <div class="container">
+            <h2 class="title">Muito conteúdo: Venha aqui aprender nada !</h2>
+            <h3 class="subtitle">30 de Fevereiro de 2021 - em Vitoria/ES</h3>
+
+            <div class="about-description">
+                <p>
+                    Aqui nos temos 4 palestrantes que sabem de nada e vão te ajudar a aprender nadica de nada.
+                </p>
+                <p>
+                    É uma grande chance de ficar por fora dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte
+                    backend com Rest, Microservices, e BigData. Venham se tornar um zé ninguem !
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="panel panel-speakers" id="panel-speakers">
+        <div class="container">
+            <div class="about-speakers">
+                <h2 class="title">PALESTRANTES</h2>
+                <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+            </div>
+
+            <ul class="speakers">
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/matheus.jpg" alt="Foto do palestrante">
+                        <figcaption class="speaker-name">Matheus Barbedo</figcaption>
+                        <p class="speaker-bio">Estagiario de T.I - Autoglass</p>
+                    </figure>
+                    <p class="speaker-speach">Sabe de nada então não me pergunte</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/guilherme.jpg" alt="Foto do palestrante">
+                        <figcaption class="speaker-name">Guilherme Dias</figcaption>
+                        <p class="speaker-bio">Desempregado</p>
+                    </figure>
+                    <p class="speaker-speach">Ah sei la cara</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/clenio.jpg" alt="Foto do palestrante">
+                        <figcaption class="speaker-name">Clenio Wesley</figcaption>
+                        <p class="speaker-bio">Estagiario de T.I - Na concorrencia</p>
+                    </figure>
+                    <p class="speaker-speach">So vive dando desculpinhas</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/waslley.jpg" alt="Foto do palestrante">
+                        <figcaption class="speaker-name">Waslley Schoenrock</figcaption>
+                        <p class="speaker-bio">Desempregado</p>
+                    </figure>
+                    <p class="speaker-speach">Estressado porem gente boa</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="panel-form" id="panel-form">
+        <div class="container">
+            <h2 class="title">Seus dados</h2>
+            <form>
+                <div class="field">
+                    <label class="field-label">Nome</label>
+                    <input class="field-input">
+                </div>
+                <div class="field">
+                    <label class="field-label">E-mail</label>
+                    <input class="field-input">
+                </div>
+                <div class="button-place">
+                    <button class="button">REALIZAR INSCRIÇÃO</button>            
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
